@@ -1,4 +1,4 @@
-# Teneo Smart v1.1.0 🚀
+# Teneo Smart v1.2.0 🚀
 
 ![Teneo Smart](https://img.shields.io/badge/Teneo-Smart-blue)
 
