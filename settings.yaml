@@ -1,0 +1,53 @@
+# API settings
+api:
+  capsolver_api_key: ""
+  twocaptcha_api_key: ""
+  x_api_key: "OwAG3kib1ivOJG4Y0OCZ8lJETa6ypvsDtGmdhcjB"
+  captcha_sitekey: "0x4AAAAAAAkhmGkb2VS6MRU0"
+  verify_ssl: false
+
+
+# Setting up the database
+database:
+  url: "sqlite:///teneo.db"
+
+# Setting up streams and delays
+performance:
+  thread_count: 1
+  account_delay: 5
+  request_timeout: 30
+
+# Paths to files
+files:
+  accounts: "accounts.txt"
+  wallets: "wallets.txt"
+
+# Other settings
+logging:
+  level: "INFO"
+
+retry:
+  attempts: 3
+  delay: 15
+
+endpoints:
+  auth_url: "https://auth.teneo.pro"
+  api_url: "https://api.teneo.pro"
+  login: "/api/login"
+  user_info: "/api/user/info"
+  # Smart account endpoints
+  smart_account_exists: "/api/peaq/smart-account-exists"
+  smart_account_create: "/api/peaq/create-smart-account"
+  # Smart ID endpoints
+  smart_id_requirements: "/api/users/smart-id-requirements"
+  smart_id_status: "/api/peaq/did-status"
+  smart_id_request_did: "/api/peaq/request-did"
+  smart_id_update_signature: "/api/peaq/update-did-signature"
+
+# Blockchain setup
+blockchain:
+  peaq_chain_id: 3338
+  peaq_rpc_url: "https://evm.peaq.network"
+
+# Debugging mode
+debug_mode: false
