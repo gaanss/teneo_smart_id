@@ -19,8 +19,8 @@ performance:
 
 # Paths to files
 files:
-  accounts: "accounts.txt"
-  wallets: "wallets.txt"
+  accounts: "data/accounts.txt"
+  wallets: "data/wallets.txt"
 
 # Other settings
 logging:
