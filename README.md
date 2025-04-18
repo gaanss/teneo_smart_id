@@ -2,8 +2,8 @@
 
 ![Teneo Smart](https://img.shields.io/badge/Teneo-Smart-blue)
 
-> **Note:** This is paid software. Each running instance costs $50.  
-> To purchase, contact via Telegram: [@gans_developer](https://t.me/gans_developer)
+> **Note:** This is paid software. 
+> To purchase, contact via Telegram: [@gaansss](https://t.me/gaansss)
 
 Teneo Smart is an automation tool for managing Teneo accounts, Smart Accounts, and Machine IDs on the Peaq network.
 
@@ -161,4 +161,4 @@ After successful migration, you can use these accounts in Teneo Smart without re
 
 ## Support 📞
 
-For support, please contact the developer via Telegram: [@gans_developer](https://t.me/gans_developer)
+For support, please contact the developer via Telegram: [@gaansss](https://t.me/gaansss)
