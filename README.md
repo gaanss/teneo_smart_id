@@ -1,6 +1,13 @@
 # Teneo Smart v1.2.0 🚀
 
-![Teneo Smart](https://img.shields.io/badge/Teneo-Smart-blue)
+<p align="center">
+  <a href="https://t.me/gans_software">
+    <img src="https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram" alt="Telegram Channel">
+  </a>
+  <a href="https://t.me/ganssoftwarechat">
+    <img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge&logo=telegram" alt="Telegram Chat">
+  </a>
+</p>
 
 > **Note:** This is paid software. 
 > To purchase, contact via Telegram: [@gaansss](https://t.me/gaansss)
