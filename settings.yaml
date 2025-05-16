@@ -5,6 +5,8 @@ api:
   x_api_key: "OwAG3kib1ivOJG4Y0OCZ8lJETa6ypvsDtGmdhcjB"
   captcha_sitekey: "0x4AAAAAAAkhmGkb2VS6MRU0"
   verify_ssl: false
+  captcha_solver: "capsolver" # turnstile, capsolver, 2captcha
+  turnstile_solver_url: ""
 
 
 # Setting up the database
