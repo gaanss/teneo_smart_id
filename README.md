@@ -19,7 +19,7 @@ Teneo Smart is an automation tool for managing Teneo accounts, Smart Accounts, a
 ## Features ✨
 
 - 🔐 Secure account authentication
-- 💼 Create and manage Smart Accounts on the Peaq network
+- 💼 Create and manage Smart Accounts
 - 🆔 Create and manage Machine IDs (DIDs)
 - 🔄 Multi-threaded processing
 - 📊 Clean console interface
@@ -27,26 +27,13 @@ Teneo Smart is an automation tool for managing Teneo accounts, Smart Accounts, a
 ## Requirements 📋
 
 - Python 3.11+ 🐍
-- Linux or Windows operating system
+- Linux operating system
 
 ## Installation 🔧
 
-### Option 1: Use Executable Files
-
-1. Download the appropriate executable for your platform:
-   - Windows: `teneo_smart.exe`
-   - Linux: `teneo_smart`
-
-2. Make sure the executable has proper permissions (Linux only):
+Clone the repository:
    ```bash
-   chmod +x teneo_smart
-   ```
-
-### Option 2: Install from Source
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+   git clone https://github.com/gaanss/teneo_smart_id.git
    cd teneo_smart
    ```
 
@@ -55,22 +42,16 @@ Teneo Smart is an automation tool for managing Teneo accounts, Smart Accounts, a
 Main settings in the `settings.yaml` file:
 
 ```yaml
-# API settings
-api:
-  capsolver_api_key: "your_capsolver_api_key"  # Key for CAPTCHA solving service
-  twocaptcha_api_key: "your_twocaptcha_api_key"  # Alternative service
-
-# Performance settings
-performance:
-  thread_count: 5  # Number of threads for parallel processing
+# Captcha configuration
+api_key: "key"
+service: "2captcha"  # options: 2captcha, anticaptcha, solvium, capsolver, turnstilesolver
+turnstile_solver_ip: "0.0.0.0"  # optional, required only for turnstilesolver
 
 # Setting up streams and delays
-account_delay: 5
-request_timeout: 30
-
-retry:
-  attempts: 3
-  delay: 15
+performance:
+  thread_count: 1
+  account_delay: 5
+  request_timeout: 30
 ```
 
 ### Data Files Format
@@ -105,9 +86,6 @@ If you don't have a license key, please contact the developer.
 ## Usage 🖥️
 
 ### Running the Executable
-
-#### Windows:
-1. Run `teneo_smart.exe` by double-clicking it
 
 #### Linux:
 1. Make sure the file has execution permissions:
