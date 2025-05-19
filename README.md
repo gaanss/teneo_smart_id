@@ -33,7 +33,7 @@ Teneo Smart is an automation tool for managing Teneo accounts, Smart Accounts, a
 
 Clone the repository:
    ```bash
-   git clone [<repository-url>](https://github.com/gaanss/teneo_smart_id)
+   git clone https://github.com/gaanss/teneo_smart_id.git
    cd teneo_smart
    ```
 
